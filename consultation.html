@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a Free Strategy Consultation with TechTacTix - Get expert recommendations for your project.">
+  <meta name="keywords" content="consultation, strategy session, expert advice, tech consulting">
+  <title>Book a Consultation - TechTacTix Strategy Session</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- ===== HEADER & NAVIGATION ===== -->
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>TechTacTix</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/industries.html">Industries</a></li>
+        <li><a href="/careers.html">Careers</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/consultation.html" class="cta-button active">Book Consultation</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Book a Free Strategy Consultation</h1>
+      <p>Schedule a 60-minute strategy consultation with our senior technology consultants. Get expert recommendations, understand your technical options, and discover how we can help accelerate your digital transformation.</p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-gradient-box"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTATION FORM ===== -->
+  <section class="alternate">
+    <div class="container">
+      <div class="grid grid-2" style="gap: var(--spacing-2xl); align-items: start;">
+        <!-- Form -->
+        <div>
+          <h2>Schedule Your Consultation</h2>
+          <form class="fade-in">
+            <div class="form-group">
+              <label for="cons-name">Full Name *</label>
+              <input type="text" id="cons-name" name="name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-email">Email Address *</label>
+              <input type="email" id="cons-email" name="email" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-phone">Phone Number *</label>
+              <input type="tel" id="cons-phone" name="phone" placeholder="+1-XXX-XXX-XXXX" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-company">Company Name *</label>
+              <input type="text" id="cons-company" name="company" placeholder="Your company name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-role">Your Role *</label>
+              <select id="cons-role" name="role" required>
+                <option value="">Select your role</option>
+                <option value="ceo">CEO / Founder</option>
+                <option value="cto">CTO / VP Engineering</option>
+                <option value="pm">Product Manager</option>
+                <option value="pm-lead">Product/Tech Lead</option>
+                <option value="business">Business Development</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-project">Project Idea / Challenge *</label>
+              <textarea id="cons-project" name="project_idea" placeholder="Describe your project idea or the business challenge you're trying to solve..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-stage">Project Stage *</label>
+              <select id="cons-stage" name="stage" required>
+                <option value="">Select project stage</option>
+                <option value="ideation">Ideation / Concept</option>
+                <option value="early">Early Stage / MVP</option>
+                <option value="scaling">Scaling / Growth</option>
+                <option value="transformation">Digital Transformation</option>
+                <option value="optimization">Optimization / Redesign</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-budget">Estimated Budget Range</label>
+              <select id="cons-budget" name="budget">
+                <option value="">Select budget range (Optional)</option>
+                <option value="0-50">$0 - $50K</option>
+                <option value="50-100">$50K - $100K</option>
+                <option value="100-250">$100K - $250K</option>
+                <option value="250-500">$250K - $500K</option>
+                <option value="500-1m">$500K - $1M</option>
+                <option value="1m+">$1M+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-timeline">Timeline / Urgency *</label>
+              <select id="cons-timeline" name="timeline" required>
+                <option value="">Select timeline</option>
+                <option value="immediate">Immediate (Next 30 days)</option>
+                <option value="q1">Q1 2024</option>
+                <option value="q2">Q2 2024</option>
+                <option value="q3">Q3 2024</option>
+                <option value="flexible">Flexible / Exploring</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-preferred-time">Preferred Consultation Time *</label>
+              <select id="cons-preferred-time" name="preferred_time" required>
+                <option value="">Select preferred time</option>
+                <option value="morning">Morning (9 AM - 12 PM EST)</option>
+                <option value="afternoon">Afternoon (12 PM - 3 PM EST)</option>
+                <option value="late">Late Afternoon (3 PM - 6 PM EST)</option>
+                <option value="flexible">Flexible - Best time for you</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cons-message">Additional Information / Questions</label>
+              <textarea id="cons-message" name="message" placeholder="Any other details you'd like us to know before the consultation?"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1.05rem;">Schedule Strategy Call →</button>
+            <p style="color: var(--text-light-gray); font-size: 0.9rem; margin-top: 1rem; text-align: center;">We'll confirm your consultation details via email within 2 hours.</p>
+          </form>
+        </div>
+
+        <!-- Benefits & Info -->
+        <div class="fade-in">
+          <h2>What You'll Get</h2>
+          <div style="margin-bottom: var(--spacing-lg); padding: var(--spacing-lg); background: var(--bg-light-gray); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="margin-bottom: var(--spacing-sm);">✓ Expert Analysis</h4>
+            <p style="color: var(--text-gray); margin: 0;">Personalized assessment of your project, technical requirements, and business goals from our senior consultants.</p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding: var(--spacing-lg); background: var(--bg-light-gray); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="margin-bottom: var(--spacing-sm);">✓ Strategic Recommendations</h4>
+            <p style="color: var(--text-gray); margin: 0;">Actionable insights on technology stack, architecture, team structure, and go-to-market strategy aligned with your business.</p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding: var(--spacing-lg); background: var(--bg-light-gray); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="margin-bottom: var(--spacing-sm);">✓ Investment Timeline & Budget</h4>
+            <p style="color: var(--text-gray); margin: 0;">Realistic estimates of project costs, timelines, and resources needed based on our experience with similar projects.</p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding: var(--spacing-lg); background: var(--bg-light-gray); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="margin-bottom: var(--spacing-sm);">✓ Risk Assessment</h4>
+            <p style="color: var(--text-gray); margin: 0;">Identification of potential risks, compliance requirements, and mitigation strategies to ensure successful delivery.</p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding: var(--spacing-lg); background: var(--bg-light-gray); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="margin-bottom: var(--spacing-sm);">✓ Partnership Exploration</h4>
+            <p style="color: var(--text-gray); margin: 0;">Discuss engagement models, team structure, and how we can best support your project and business goals.</p>
+          </div>
+
+          <div style="padding: var(--spacing-lg); background: linear-gradient(135deg, var(--soft-blue), rgba(96, 165, 250, 0.1)); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
+            <h4 style="color: var(--primary-blue); margin-bottom: var(--spacing-sm);">📋 Consultation Format</h4>
+            <p style="color: var(--text-gray); margin: 0;">
+              <strong>Duration:</strong> 60 minutes<br>
+              <strong>Format:</strong> Video call (Zoom/Teams)<br>
+              <strong>Attendees:</strong> Senior Consultant + Your team<br>
+              <strong>Deliverable:</strong> Strategy summary sent within 24 hours
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CONSULT ===== -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Schedule a Consultation?</h2>
+        <p>Get clarity before you invest in your project</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card fade-in">
+          <div class="card-icon">🎯</div>
+          <h3>Align on Strategy</h3>
+          <p>Ensure your technical strategy is aligned with business goals and market opportunities before major investment.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">💡</div>
+          <h3>De-Risk Your Project</h3>
+          <p>Identify potential technical and business risks early, avoiding costly mistakes and delays down the road.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">📊</div>
+          <h3>Realistic Estimates</h3>
+          <p>Get accurate cost and timeline estimates based on industry expertise and proven project delivery experience.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">🤝</div>
+          <h3>Evaluate Partnership Fit</h3>
+          <p>Understand how we work, our methodology, and whether we're the right partner for your specific needs.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">🚀</div>
+          <h3>Accelerate Time-to-Market</h3>
+          <p>Get strategic guidance on tech choices, architecture, and approach that will shorten your path to launch.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">💰</div>
+          <h3>Optimize Budget</h3>
+          <p>Make informed decisions about resource allocation and prioritization to maximize ROI on your investment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ SECTION ===== -->
+  <section class="alternate">
+    <div class="container">
+      <div class="section-header">
+        <h2>Consultation FAQs</h2>
+        <p>Answers to common questions about our consultation process</p>
+      </div>
+      <div class="grid grid-2" style="gap: var(--spacing-2xl);">
+        <div class="card fade-in">
+          <h4>Is the consultation really free?</h4>
+          <p style="color: var(--text-gray);">Yes! Our initial 60-minute strategy consultation is completely free. No strings attached. We do this because we believe great partnerships start with great conversations.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>What if I'm just exploring ideas?</h4>
+          <p style="color: var(--text-gray);">Perfect! We love working with early-stage founders and teams exploring ideas. Our consultants are experienced at helping you think through concepts and providing unbiased guidance on viability and approach.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>Do I need to prepare anything?</h4>
+          <p style="color: var(--text-gray);">Not required, but helpful! If you have any documents like requirements, wireframes, competitive analysis, or previous proposals, feel free to share. However, a clear description of your challenge is usually enough.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>How soon can I schedule?</h4>
+          <p style="color: var(--text-gray);">We're flexible! We can typically accommodate consultations within 2-5 business days. If you need something urgent, mention it in the form and we'll do our best to arrange a sooner time.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>What if I can't make the scheduled time?</h4>
+          <p style="color: var(--text-gray);">No problem! We'll work with you to find a time that fits your schedule. Just let us know in the form or we can reschedule after confirmation. We operate across multiple time zones.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>What happens after the consultation?</h4>
+          <p style="color: var(--text-gray);">After our call, we'll send you a summary of recommendations and next steps. If you'd like to move forward, we discuss engagement options. If not, you have valuable insights for your project regardless.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section id="cta">
+    <div class="container" style="text-align: center; padding: 4rem var(--spacing-lg);">
+      <h2 style="margin-bottom: 1rem;">Let's Talk About Your Project</h2>
+      <p style="font-size: 1.1rem; color: var(--text-gray); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Fill out the form above and schedule your free strategy consultation. Our team is ready to help you transform your vision into reality.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About TechTacTix</h4>
+        <p>We partner with startups and enterprises to build intelligent digital products using AI, cloud, and modern engineering practices.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services.html">Custom Development</a></li>
+          <li><a href="/services.html">AI Solutions</a></li>
+          <li><a href="/services.html">Cloud Services</a></li>
+          <li><a href="/services.html">SaaS Development</a></li>
+          <li><a href="/services.html">Consulting</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect With Us</h4>
+        <p>Email: hello@techtactix.com</p>
+        <p>Phone: +1-800-TECH-TAX</p>
+        <p>Location: Global Technology Centers</p>
+        <div class="social-links">
+          <div class="social-icon">f</div>
+          <div class="social-icon">𝕏</div>
+          <div class="social-icon">in</div>
+          <div class="social-icon">▶</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 TechTacTix Cloud Tech Solutions Pvt Ltd. All rights reserved.</p>
+      <div style="display: flex; gap: var(--spacing-lg);">
+        <a href="#" style="color: rgba(255, 255, 255, 0.7);">Privacy Policy</a>
+        <a href="#" style="color: rgba(255, 255, 255, 0.7);">Terms of Service</a>
+        <a href="#" style="color: rgba(255, 255, 255, 0.7);">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
